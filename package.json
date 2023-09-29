@@ -1,12 +1,12 @@
 {
-  "name": "@finsweet/developer-starter",
+  "name": "@studiorelief/clair-lagon",
   "version": "0.0.0",
-  "description": "Developer starter template for Finsweet projects.",
+  "description": "Clair lagon Website",
   "homepage": "https://github.com/finsweet/developer-starter#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
-    "name": "Finsweet",
+    "name": "ClairLagon",
     "url": "https://finsweet.com/"
   },
   "repository": {
@@ -40,6 +40,7 @@
     "@finsweet/eslint-config": "^2.0.5",
     "@finsweet/tsconfig": "^1.3.2",
     "@playwright/test": "^1.35.0",
+    "@types/jquery": "^3.5.20",
     "@typescript-eslint/eslint-plugin": "^5.59.9",
     "@typescript-eslint/parser": "^5.59.9",
     "cross-env": "^7.0.3",
@@ -52,7 +53,8 @@
     "typescript": "^5.1.3"
   },
   "dependencies": {
-    "@finsweet/ts-utils": "^0.39.2"
+    "@finsweet/ts-utils": "^0.39.2",
+    "jquery": "^3.7.1"
   },
   "engines": {
     "pnpm": ">=8"
