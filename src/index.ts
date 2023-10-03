@@ -1,9 +1,13 @@
 import './index.css';
 
-import { greetUser } from '$utils/greet';
+import { dataMirrorHero, eauHero, messageHero, plageHero, totalHero } from '$utils/hero';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  const name = 'John Doe';
-  greetUser(name);
+  // hero calculator
+  messageHero();
+  totalHero();
+  dataMirrorHero();
+  plageHero();
+  eauHero();
 });
